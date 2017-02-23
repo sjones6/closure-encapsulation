@@ -27,6 +27,7 @@ module.exports = function(name, phone) {
     }
 
     // Define initialization sequence
+    // which we'll call immediately
     this.init = function() {
         if (name) {
             this.setName(name);
